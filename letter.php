@@ -130,24 +130,7 @@
       };
 
       // New Promise-based usage:
-      const pdf = html2pdf().set(opt).from(letter);
-      console.log(pdf);
-
-      // Send to database
-      $.ajax({
-        type: "POST",
-        url: "store.php",
-        data: {
-          pdf: pdf,
-        },
-        cache: false,
-        success: function(data) {
-          console.log(data);
-        },
-        error: function(xhr, status, error) {
-          console.error(xhr);
-        }
-      });
+      html2pdf().set(opt).from(letter).save();
     })
   </script>
 </body>
