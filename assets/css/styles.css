@@ -1,0 +1,50 @@
+@font-face {
+  font-family: "Century ghotic";
+  src: url("../fonts/Century-Gothic_9791.ttf");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Century ghotic";
+  src: url("../fonts/Century-Gothic-Bold_9789.ttf");
+  font-weight: bold;
+}
+
+body {
+  font-size: 15px;
+  letter-spacing: 1px;
+  width: 8.5in;
+  height: 11in;
+  font-family: "Century ghotic", sans-serif;
+}
+.header {
+  height: 1.8in;
+  background-image: url("../images/header.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.footer {
+  height: 0.6in;
+  background-image: url("../images/footer.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.content {
+  height: 8.6in;
+  padding: 0.3in 0.8in;
+  background-image: url("../images/body.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.date {
+  text-align: right;
+}
+.socials li {
+  list-style: none;
+  line-height: 2em;
+}
+.text-success {
+  color: #4cac34 !important;
+}
+p {
+  font-weight: light;
+}
